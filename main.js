@@ -4,7 +4,7 @@ const listContainer = document.getElementById("list-container");
 //To add the to do list of items
 function addTask () {
     //if input box is empty alert msg pop up's
-    if(inputBox === ''){
+    if(inputBox.value === ''){
         alert("You must write something!!");
     }
     //to create a list elements and also we have appended cross icon
